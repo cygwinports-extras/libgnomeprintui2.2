@@ -1,0 +1,9 @@
+ORIG_PN=${PN%22}
+inherit gnome2
+
+DESCRIPTION="GNOME printing GUI library"
+
+PKG_NAMES="${PN} ${PN}-devel"
+PKG_HINTS="setup devel"
+PKG_CONTENTS[0]="--exclude=gtk-doc usr/bin/ usr/share/"
+PKG_CONTENTS[1]="usr/include/ usr/lib/${ORIG_PN}-2-2.* usr/lib/pkgconfig/ usr/share/gtk-doc/"

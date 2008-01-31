@@ -3,27 +3,27 @@ libgnomeprintui22
 This is the GUI frontend to the GNOME Printing Architecture.
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  atk-1.18.0-1
-  gdk-pixbuf2-2.10.14-1
-  glib2-2.12.13-1
-  gnome-icon-theme-2.18.0-1
-  gtk2-x11-2.10.14-1
+  cygwin-1.5.25-7
+  atk-1.20.0-1
+  gdk-pixbuf2-2.12.5-1
+  glib2-2.14.5-1
+  gnome-icon-theme-2.20.0-1
+  gtk2-x11-2.12.5-1
   libart_lgpl2-2.3.19-1
-  libgnomecanvas2-2.14.0-1
-  libgnomeprint22-2.18.1-1
+  libgnomecanvas2-2.20.1.1-1
+  libgnomeprint22-2.18.3-1
   libintl8-0.15-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.24-2
+  cygwin-1.5.25-7
   autoconf2.5-2.61-1
   automake1.10-1.10-1
   binutils-20060817-1
-  cygport-0.3.5-1
-  gawk-3.1.5-4
+  cygport-0.3.7-1
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
-  gtk-doc-1.8-1
+  gtk-doc-1.9-1
   libtool1.5-1.5.23a-2
   make-3.81-1
   pkg-config-0.21-1
@@ -38,16 +38,16 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libgnomeprintui22-2.18.1-1-src.tar.bz2
+  unpack libgnomeprintui22-2.18.2-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libgnomeprintui22-2.18.1-1.cygport all
+  cygport ./libgnomeprintui22-2.18.2-1.cygport all
 
 This will create:
-  /usr/src/libgnomeprintui22-2.18.1-1-src.tar.bz2
-  /usr/src/libgnomeprintui22-2.18.1-1.tar.bz2
-  /usr/src/libgnomeprintui22-devel-2.18.1-1.tar.bz2
+  /usr/src/libgnomeprintui22-2.18.2-1-src.tar.bz2
+  /usr/src/libgnomeprintui22-2.18.2-1.tar.bz2
+  /usr/src/libgnomeprintui22-devel-2.18.2-1.tar.bz2
 
 -------------------------------------------
 
@@ -55,16 +55,16 @@ Files included in the binary packages:
 
 (libgnomeprintui22)
   /usr/bin/cyggnomeprintui-2-2-0.dll
-  /usr/share/doc/Cygwin/libgnomeprintui22-2.18.1.README
-  /usr/share/doc/libgnomeprintui22-2.18.1/AUTHORS
-  /usr/share/doc/libgnomeprintui22-2.18.1/COPYING
-  /usr/share/doc/libgnomeprintui22-2.18.1/COPYING.LIB
-  /usr/share/doc/libgnomeprintui22-2.18.1/ChangeLog
-  /usr/share/doc/libgnomeprintui22-2.18.1/INSTALL
-  /usr/share/doc/libgnomeprintui22-2.18.1/MAINTAINERS
-  /usr/share/doc/libgnomeprintui22-2.18.1/NEWS
-  /usr/share/doc/libgnomeprintui22-2.18.1/README
-  /usr/share/libgnomeprintui/2.18.1/gnome-print-job-preview.xml
+  /usr/share/doc/Cygwin/libgnomeprintui22-2.18.2.README
+  /usr/share/doc/libgnomeprintui22-2.18.2/AUTHORS
+  /usr/share/doc/libgnomeprintui22-2.18.2/COPYING
+  /usr/share/doc/libgnomeprintui22-2.18.2/COPYING.LIB
+  /usr/share/doc/libgnomeprintui22-2.18.2/ChangeLog
+  /usr/share/doc/libgnomeprintui22-2.18.2/INSTALL
+  /usr/share/doc/libgnomeprintui22-2.18.2/MAINTAINERS
+  /usr/share/doc/libgnomeprintui22-2.18.2/NEWS
+  /usr/share/doc/libgnomeprintui22-2.18.2/README
+  /usr/share/libgnomeprintui/2.18.2/gnome-print-job-preview.xml
   /usr/share/locale/af/LC_MESSAGES/libgnomeprintui-2.2.mo
   /usr/share/locale/am/LC_MESSAGES/libgnomeprintui-2.2.mo
   /usr/share/locale/ar/LC_MESSAGES/libgnomeprintui-2.2.mo
@@ -176,6 +176,9 @@ Files included in the binary packages:
 --------------------
 
 Port Notes:
+
+----- version 2.18.2-1 -----
+Version bump.
 
 ----- version 2.18.1-1 -----
 Version bump.
