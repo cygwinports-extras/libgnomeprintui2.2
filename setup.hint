@@ -1,4 +1,0 @@
-category: Gnome Publishing
-requires: cygwin gnome-icon-theme atk glib2 gtk2-x11 libart_lgpl2 libgnomecanvas2 libgnomeprint22 libintl8
-sdesc: "GNOME Printing Architecture GUI frontend library (runtime)"
-ldesc: "This is the GUI frontend to the GNOME Printing Architecture."
