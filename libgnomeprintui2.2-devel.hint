@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin libgnomeprintui2.2_0 libart_lgpl_2-devel libatk1.0-devel libglib2.0-devel libgtk2.0-devel libgnomecanvas2-devel libgnomeprint2.2-devel gettext
+requires: libgnomeprintui2.2_0 libart_lgpl_2-devel libatk1.0-devel libglib2.0-devel libgtk2.0-devel libgnomecanvas2-devel libgnomeprint2.2-devel gettext
 external-source: libgnomeprintui2.2
 sdesc: "GNOME Printing Architecture GUI frontend library (development)"
 ldesc: "This is the GUI frontend to the GNOME Printing Architecture."

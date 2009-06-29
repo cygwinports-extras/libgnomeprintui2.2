@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin gnome-icon-theme libart_lgpl_2_2 libatk1.0_0 libgcc1 libglib2.0_0 libgtk2.0_0 libgnomecanvas2_0 libgnomeprint2.2_0 libintl8
+requires: gnome-icon-theme libart_lgpl_2_2 libatk1.0_0 libgcc1 libglib2.0_0 libgtk2.0_0 libgnomecanvas2_0 libgnomeprint2.2_0 libintl8
 external-source: libgnomeprintui2.2
 sdesc: "GNOME Printing Architecture GUI frontend library (runtime)"
 ldesc: "This is the GUI frontend to the GNOME Printing Architecture."
