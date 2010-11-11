@@ -3,6 +3,6 @@ inherit gnome2
 
 DESCRIPTION="GNOME printing GUI library"
 
-PKG_NAMES="${PN} ${PN}_0 ${PN}-devel"
+PKG_NAMES="${PN}_0 ${PN}-devel"
 libgnomeprintui2_2_0_CONTENTS="--exclude=gtk-doc usr/bin/*-2-2-0.dll usr/share/"
 libgnomeprintui2_2_devel_CONTENTS="usr/include/ usr/lib/ usr/share/gtk-doc/"
